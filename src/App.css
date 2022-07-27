@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* -------------------------------------page ppal ------------------*/
+
+.title-input {
+  display: inline-block;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+  width: 100%;
+}
+
+.container-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 150px;
+}
+
+.container-input .img-1 {
+  padding-top: 30px;
+  
+}
+
+.begining-input  {
+ text-align: center;
+  margin-top: 170px;
+}
+
+.container-input .img-1 img {
+  width: 90%;
+}
+
+.begining-input input {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  font-size: 19px;
+  color: grey;
+  height: 50px;
+  box-shadow: -10px -10px 15px rgba(58, 58, 58, .09019607843137255), 10px 10px 15px rgba(66, 66, 66, .34901960784313724);
+}
+
+/* todos los pokemons */
+
+.container-all h1 {
+  font-size: 60px;
+}
+
+.container-character-item {
+  background: rgb(72, 208, 176);
+  border-radius: 20px;
+  padding: 10px;
+
+  display: flex;
+  text-align: left;
+  height: 100%;
+  text-shadow: 0 0 1.4px;
+}
+
+.container-character-item .container-character-item:hover {
+  color: #fff;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.container-character-item img {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+/* tosos los pokemons */
+
+
+.box input {
+  width: 50%;
+  text-align: center;
+  background-color: floralwhite;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  font-size: 19px;
+  padding-left: 20px;
+  color: grey;
+  transition: .5s;
+  box-shadow: -10px -10px 15px rgba(58, 58, 58, .09019607843137255), 10px 10px 15px rgba(66, 66, 66, .34901960784313724);
+}
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+select {
+  width: 100%;
+  max-width: 400px;
+  height: 60px;
+  border-radius: 30px;
+  border: 0;
+  outline: none;
+  font-size: 19px;
+  padding-left: 20px;
+  color: grey;
+  box-shadow: -10px -10px 15px rgba(58, 58, 58, .09019607843137255), 10px 10px 15px rgba(66, 66, 66, .34901960784313724);
+  transition: .5s;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.general-card {
+  width: 50%;
+  padding: 15px;
+  color: #fff;
+}
+
+.img {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.img img {
+  width: 120%;
+  right: 10px;
+}
+/* -- detalle- */
+.container-detail {
+  max-width: 100% !important;
+}
+
+.detail {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 1rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.container-1 {
+  width: 96%;
+  background: rgb(72, 208, 176);
+  box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+  margin: 1rem 0;
+  padding: 1em;
+  border-radius: 30px;
+  border: 1px solid rgba(34,36,38,.15);
+  
+  
+}
+
+.container-2 {
+  
+  width: 45%;
+  background: rgb(72, 208, 176);
+  box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+  
+  padding: 1em;
+  border-radius: 30px;
+  border: 1px solid rgba(34,36,38,.15);
+}
+
+.container-3 {
+  
+  width: 45%;
+  background: rgb(72, 208, 176);
+  box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+  
+  padding: 1em;
+  border-radius: 30px;
+  border: 1px solid rgba(34,36,38,.15);
+}
+
+.container-4 {
+  
+  width: 96%;;
+  background: rgb(72, 208, 176);
+  content: initial;
+  box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+  margin: 1rem 0;
+  padding: 1em;
+  border-radius: 30px;
+  border: 1px solid rgba(34,36,38,.15);
+}
+
+.container-5 {
+  
+  width: 45%;
+  background: rgb(72, 208, 176);
+  box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+  margin: 1rem 0;
+  padding: 1em;
+  border-radius: 30px;
+  border: 1px solid rgba(34,36,38,.15);
+}
+
